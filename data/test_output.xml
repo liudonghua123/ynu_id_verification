@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RTN_PERSON>
+    <ERR_ID>OK</ERR_ID>
+    <ERR_MSG></ERR_MSG>
+    <RTN_PERSON_INFO_LIST>
+        <RTN_PERSON_INFO>
+            <SORT_ID>1</SORT_ID>
+            <PERSON_TYPE>OK</PERSON_TYPE>
+        </RTN_PERSON_INFO>
+        <RTN_PERSON_INFO>
+            <SORT_ID>2</SORT_ID>
+            <PERSON_TYPE>OK</PERSON_TYPE>
+        </RTN_PERSON_INFO>
+    </RTN_PERSON_INFO_LIST>
+</RTN_PERSON>

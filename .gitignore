@@ -1,0 +1,11 @@
+# log files
+logs/*
+
+# idea project files
+.idea
+
+# node dependences
+node_modules
+
+# mac meta data files
+**/.DS_Store

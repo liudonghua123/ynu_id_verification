@@ -1,0 +1,6 @@
+# node application for ynu_id_verification
+ynu_id_verification:
+    image: ynuae/ynu_id_verification
+    ports:
+      - "50007:3000"
+    restart: always
