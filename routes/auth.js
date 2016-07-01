@@ -8,8 +8,10 @@ var fs = require('fs'),
 var parser = new xml2js.Parser();
 var builder = new xml2js.Builder();
 
+router.get('/', function(req, res, next) {
+  res.send('You should post xml data to this url!');
+});
 
-/* GET home page. */
 router.post('/', function(req, res, next) {
 
   parser.parseString(req.rawBody, function (err, result) {
