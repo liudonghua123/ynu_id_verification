@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
 
-  parser.parseString(req.rawBody, function (err, result) {
+  parser.parseString(req.body, function (err, result) {
     if(err) {
       console.log("Error in parseString!");
       process.exit(1);
