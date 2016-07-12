@@ -12,6 +12,13 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
+app.enable('trust proxy');
+
+// log request
+app.use(function(req, res, next) {
+     console.info("get request from remote %s", req.ip);
+     next();
+})
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
